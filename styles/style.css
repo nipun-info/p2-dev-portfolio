@@ -47,7 +47,7 @@ header {
     padding-top: 50px;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: right bottom, left top ;
+    background-position: bottom right, top left ;
 }
 nav {
     display: flex;
@@ -80,31 +80,39 @@ nav {
 /* ========= banner section ======== */
 .banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
+    /* margin: 0px 200px; */
+    margin: 0 35px 0 200px;
     
 }
 .banner-content {
-    width: 50%;
+    max-width: 580px;
 }
 .banner-greetings {
-    font-size: 36px;
+    font-size: 32px;
+    color: #474747;
+    font-weight: 600;
 }
 .banner-title {
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 800;
 }
-.banner-description {}
-.btn-container {}
+.banner-description {
+    margin: 12px 0;
+    color: #474747;
+    font-size: 14px;
+}
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
 
 .banner-profile-pic {
-    width: 50%;
-    max-width: 480px;
+    max-width: 580px;
 }
 
-.banner-profile-pic img {
-    width: 100%;
-}
+
 
 
 
